@@ -1,0 +1,28 @@
+#success-page {
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.success-message {
+  margin-bottom: 20px;
+
+  display: flex;
+  align-items: center;
+}
+
+.success-message h1 {
+  margin-left: 20px;
+  font-size: 50px;
+  color: #fff;
+}
+
+.success-info {
+  font-size: 28px;
+  color: white;
+}
